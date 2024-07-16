@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49D6BB129C6709CF13876FC0 /* Pods_Fingertapping_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8C03B543E1180D1CA9124D /* Pods_Fingertapping_ios.framework */; };
 		739716A72A11E6C900300448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716A62A11E6C900300448 /* AppDelegate.swift */; };
 		739716A92A11E6C900300448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716A82A11E6C900300448 /* SceneDelegate.swift */; };
 		739716AB2A11E6C900300448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716AA2A11E6C900300448 /* ViewController.swift */; };
 		739716AE2A11E6C900300448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739716AC2A11E6C900300448 /* Main.storyboard */; };
 		739716B02A11E6CA00300448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739716AF2A11E6CA00300448 /* Assets.xcassets */; };
 		739716B32A11E6CA00300448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739716B12A11E6CA00300448 /* LaunchScreen.storyboard */; };
+		739716C12A12071C00300448 /* TapTrackingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716C02A12071C00300448 /* TapTrackingController.swift */; };
+		739716C82A12272900300448 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716C72A12272900300448 /* Member.swift */; };
+		739716CA2A122BD100300448 /* MemberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716C92A122BD100300448 /* MemberList.swift */; };
+		739716CC2A122CA600300448 /* ResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739716CB2A122CA600300448 /* ResultResponse.swift */; };
+		739DD4E12A1F5AFB0053BF0D /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739DD4E02A1F5AFB0053BF0D /* MemberData.swift */; };
+		73B90D3C2A1B0A5C00816282 /* TappingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90D3B2A1B0A5C00816282 /* TappingDetail.swift */; };
+		73B90D3E2A1B3C8700816282 /* FingerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90D3D2A1B3C8700816282 /* FingerData.swift */; };
+		73B90D402A1B43BF00816282 /* SendResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90D3F2A1B43BF00816282 /* SendResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29F776041944D90F82692139 /* Pods-Fingertapping_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertapping_ios.release.xcconfig"; path = "Target Support Files/Pods-Fingertapping_ios/Pods-Fingertapping_ios.release.xcconfig"; sourceTree = "<group>"; };
+		3D8C03B543E1180D1CA9124D /* Pods_Fingertapping_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fingertapping_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		739716A32A11E6C900300448 /* Fingertapping_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fingertapping_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739716A62A11E6C900300448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739716A82A11E6C900300448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		739716AF2A11E6CA00300448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		739716B22A11E6CA00300448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		739716B42A11E6CA00300448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739716C02A12071C00300448 /* TapTrackingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTrackingController.swift; sourceTree = "<group>"; };
+		739716C72A12272900300448 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		739716C92A122BD100300448 /* MemberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberList.swift; sourceTree = "<group>"; };
+		739716CB2A122CA600300448 /* ResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultResponse.swift; sourceTree = "<group>"; };
+		739DD4E02A1F5AFB0053BF0D /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
+		73B90D3B2A1B0A5C00816282 /* TappingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappingDetail.swift; sourceTree = "<group>"; };
+		73B90D3D2A1B3C8700816282 /* FingerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerData.swift; sourceTree = "<group>"; };
+		73B90D3F2A1B43BF00816282 /* SendResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendResult.swift; sourceTree = "<group>"; };
+		83C8DF908E57ECADD96D84BC /* Pods-Fingertapping_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fingertapping_ios.debug.xcconfig"; path = "Target Support Files/Pods-Fingertapping_ios/Pods-Fingertapping_ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D6BB129C6709CF13876FC0 /* Pods_Fingertapping_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				739716A52A11E6C900300448 /* Fingertapping_ios */,
 				739716A42A11E6C900300448 /* Products */,
+				C4694340742BB1D38B3A6E99 /* Pods */,
+				EA550ED287F46086C67413D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,48 @@
 		739716A52A11E6C900300448 /* Fingertapping_ios */ = {
 			isa = PBXGroup;
 			children = (
+				739716BE2A1206D800300448 /* Entity */,
 				739716A62A11E6C900300448 /* AppDelegate.swift */,
 				739716A82A11E6C900300448 /* SceneDelegate.swift */,
 				739716AA2A11E6C900300448 /* ViewController.swift */,
 				739716AC2A11E6C900300448 /* Main.storyboard */,
+				739716C02A12071C00300448 /* TapTrackingController.swift */,
 				739716AF2A11E6CA00300448 /* Assets.xcassets */,
 				739716B12A11E6CA00300448 /* LaunchScreen.storyboard */,
 				739716B42A11E6CA00300448 /* Info.plist */,
 			);
 			path = Fingertapping_ios;
+			sourceTree = "<group>";
+		};
+		739716BE2A1206D800300448 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				739716C72A12272900300448 /* Member.swift */,
+				739716C92A122BD100300448 /* MemberList.swift */,
+				739716CB2A122CA600300448 /* ResultResponse.swift */,
+				73B90D3B2A1B0A5C00816282 /* TappingDetail.swift */,
+				73B90D3D2A1B3C8700816282 /* FingerData.swift */,
+				73B90D3F2A1B43BF00816282 /* SendResult.swift */,
+				739DD4E02A1F5AFB0053BF0D /* MemberData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C4694340742BB1D38B3A6E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C8DF908E57ECADD96D84BC /* Pods-Fingertapping_ios.debug.xcconfig */,
+				29F776041944D90F82692139 /* Pods-Fingertapping_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA550ED287F46086C67413D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D8C03B543E1180D1CA9124D /* Pods_Fingertapping_ios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 739716B72A11E6CA00300448 /* Build configuration list for PBXNativeTarget "Fingertapping_ios" */;
 			buildPhases = (
+				99341A58D1ED076FB518A40C /* [CP] Check Pods Manifest.lock */,
 				7397169F2A11E6C900300448 /* Sources */,
 				739716A02A11E6C900300448 /* Frameworks */,
 				739716A12A11E6C900300448 /* Resources */,
+				64C1C7065EBE3AD23D1F0AFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +161,7 @@
 				};
 			};
 			buildConfigurationList = 7397169E2A11E6C900300448 /* Build configuration list for PBXProject "Fingertapping_ios" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +191,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64C1C7065EBE3AD23D1F0AFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertapping_ios/Pods-Fingertapping_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fingertapping_ios/Pods-Fingertapping_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fingertapping_ios/Pods-Fingertapping_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99341A58D1ED076FB518A40C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fingertapping_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7397169F2A11E6C900300448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B90D3C2A1B0A5C00816282 /* TappingDetail.swift in Sources */,
+				73B90D402A1B43BF00816282 /* SendResult.swift in Sources */,
+				739716CA2A122BD100300448 /* MemberList.swift in Sources */,
 				739716AB2A11E6C900300448 /* ViewController.swift in Sources */,
+				739DD4E12A1F5AFB0053BF0D /* MemberData.swift in Sources */,
+				739716C12A12071C00300448 /* TapTrackingController.swift in Sources */,
+				739716C82A12272900300448 /* Member.swift in Sources */,
 				739716A72A11E6C900300448 /* AppDelegate.swift in Sources */,
 				739716A92A11E6C900300448 /* SceneDelegate.swift in Sources */,
+				739716CC2A122CA600300448 /* ResultResponse.swift in Sources */,
+				73B90D3E2A1B3C8700816282 /* FingerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +390,12 @@
 		};
 		739716B82A11E6CA00300448 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C8DF908E57ECADD96D84BC /* Pods-Fingertapping_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JB63VVN2W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fingertapping_ios/Info.plist;
@@ -295,6 +404,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,11 +420,12 @@
 		};
 		739716B92A11E6CA00300448 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F776041944D90F82692139 /* Pods-Fingertapping_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JB63VVN2W3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fingertapping_ios/Info.plist;
@@ -323,6 +434,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
